@@ -48,9 +48,7 @@ public class ViewFactoryTest {
         //View expResult = new ViewImplementation();
         View result = instance.getView();
         //assertEquals(expResult, result);
-        assertTrue(result instanceof View);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("El metodo getView no devuelve un tipo View");
+        assertTrue(result instanceof View);        
     }
     
 }

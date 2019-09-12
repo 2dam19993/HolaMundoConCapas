@@ -47,8 +47,6 @@ public class ModelImplementationTest {
         String expResult = "Hola mundo";
         String result = instance.getGreeting();
         assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("El mensaje no es el correcpondiente");
     }
     
 }

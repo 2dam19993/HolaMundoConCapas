@@ -48,8 +48,7 @@ public class ModelFactoryTest {
         //Model expResult = new ModelImplementation();
         Model result = instance.getModel();
         assertTrue(result instanceof Model);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("El metodo getModel no devuelve el tipo Model");
+        
     }
     
 }
