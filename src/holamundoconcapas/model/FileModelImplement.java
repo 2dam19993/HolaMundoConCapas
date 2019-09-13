@@ -5,16 +5,18 @@
  */
 package holamundoconcapas.model;
 
+import java.util.ResourceBundle;
+
 /**
  *
  * @author 2dam
  */
-public class ModelImplementation implements Model{
-    //@Override estamos redefiniciendo el metodo
+public class FileModelImplement implements Model{
+
     @Override
     public String getGreeting() {
-       // throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-       return "Hola mundo";
+         return ResourceBundle.getBundle("holamundoconcapas.model.SaludoProperty").getString("saludo");
+     //ResourceBundle resourceBundle= new ResourceBundle();
     }
     
 }

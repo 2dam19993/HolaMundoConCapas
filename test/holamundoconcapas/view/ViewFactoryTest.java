@@ -11,6 +11,7 @@ import org.junit.AfterClass;
 import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
+//Permite utilizar sus metodos sin mecionar todo el rato Assert
 import static org.junit.Assert.*;
 
 /**
@@ -48,7 +49,7 @@ public class ViewFactoryTest {
         //View expResult = new ViewImplementation();
         View result = instance.getView();
         //assertEquals(expResult, result);
-        assertTrue(result instanceof View);        
+        assertTrue("No es una vista",result instanceof View);        
     }
     
 }

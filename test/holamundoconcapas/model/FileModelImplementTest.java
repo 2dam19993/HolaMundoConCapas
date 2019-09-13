@@ -16,9 +16,9 @@ import static org.junit.Assert.*;
  *
  * @author 2dam
  */
-public class ModelImplementationTest {
+public class FileModelImplementTest {
     
-    public ModelImplementationTest() {
+    public FileModelImplementTest() {
     }
     
     @BeforeClass
@@ -28,10 +28,9 @@ public class ModelImplementationTest {
     @AfterClass
     public static void tearDownClass() {
     }
-    //private Model model;
+    
     @Before
     public void setUp() {
-        //model= new ModelImplementation();
     }
     
     @After
@@ -39,15 +38,21 @@ public class ModelImplementationTest {
     }
 
     /**
-     * Test of getGreeting method, of class ModelImplementation.
+     * Test of getGreeting method, of class FileModelImplement.
      */
     @Test
     public void testGetGreeting() {
+        /*
         System.out.println("getGreeting");
-        ModelImplementation instance = new ModelImplementation();
-        String expResult = "Hola mundo";
+        FileModelImplement instance = new FileModelImplement();
+        String expResult = "";
         String result = instance.getGreeting();
         assertEquals(expResult, result);
+        // TODO review the generated test code and remove the default call to fail.
+        fail("The test case is a prototype.");
+       */
+        assertNotNull("Es nulo",new FileModelImplement().getGreeting());
+        assertNotEquals("Esta vacio",0,new FileModelImplement().getGreeting().length());
     }
     
 }

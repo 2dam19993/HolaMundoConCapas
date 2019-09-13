@@ -6,7 +6,7 @@
 package holamundoconcapas.model;
 
 /**
- *
+ * La interfaz Model es la interfaz donde estan declarado los metodos
  * @author 2dam
  */
 public interface Model {

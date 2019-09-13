@@ -11,5 +11,9 @@ package holamundoconcapas.view;
  */
 public interface View {
     //Se ponen la declaracion
+    /**
+     * Enseña un saludo
+     * @param saludo Es un String que tiene el saludo
+     */
     public void showGreeting(String saludo);
 }
