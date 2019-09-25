@@ -10,11 +10,17 @@ import javax.swing.JOptionPane;
 
 
 /**
- *
- * @author 2dam
+ * Esta clase implementa el La vista para una ventana Swing.
+ * This class implements the view to create a swing window
+ * @author Ricardo Peinado Lastra
  */
 public class SwingViewImplementation  extends javax.swing.JFrame implements View{
     //private String saludo;
+    /**
+     * Enseña el saludo.
+     * Show the greeting.
+     * @param saludo Es el saludo que recibe.
+     */
     @Override
     public void showGreeting(String saludo) {
         /*

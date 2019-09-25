@@ -1,8 +1,8 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+* To change this license header, choose License Headers in Project Properties.
+* To change this template file, choose Tools | Templates
+* and open the template in the editor.
+*/
 package holamundoconcapas.model;
 
 import org.junit.After;
@@ -13,8 +13,9 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 /**
- *
- * @author 2dam
+ * Esta clase testea la clase ModelImplementation.
+ * This class test the ModelImplementation class.
+ * @author Ricardo Peinado Lastra
  */
 public class ModelImplementationTest {
     
@@ -37,7 +38,7 @@ public class ModelImplementationTest {
     @After
     public void tearDown() {
     }
-
+    
     /**
      * Test of getGreeting method, of class ModelImplementation.
      */

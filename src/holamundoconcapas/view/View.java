@@ -6,13 +6,15 @@
 package holamundoconcapas.view;
 
 /**
- *
- * @author 2dam
+ * Es la interfaz de la vista.
+ * This is the view interface.
+ * @author Ricardo Peinado Lastra
  */
 public interface View {
     //Se ponen la declaracion
     /**
      * Enseña un saludo
+     * Show a greeting
      * @param saludo Es un String que tiene el saludo
      */
     public void showGreeting(String saludo);

@@ -1,16 +1,22 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+* To change this license header, choose License Headers in Project Properties.
+* To change this template file, choose Tools | Templates
+* and open the template in the editor.
+*/
 package holamundoconcapas.view;
 
 /**
- *
- * @author 2dam
+ * Es una clase que implementa la vista.
+ * This class is the implementation of the view.
+ * @author Ricardo Peinado Lastra
  */
 public class ViewImplementation implements View {
     //definimos los metodos declarados en la interfaz
+    /**
+     * Enseña el saludo.
+     * Show the greeting
+     * @param saludo Es el saludo que recibe.
+     */
     @Override
     public void showGreeting(String saludo) {
         //Bloque de metodo

@@ -1,8 +1,8 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+* To change this license header, choose License Headers in Project Properties.
+* To change this template file, choose Tools | Templates
+* and open the template in the editor.
+*/
 package holamundoconcapas.view;
 
 
@@ -15,8 +15,9 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 /**
- *
- * @author 2dam
+ * Esta clase testea la clase ViewFactory
+ * This class tests the View Factory class
+ * @author Ricardo Peinado Lastra
  */
 public class ViewFactoryTest {
     
@@ -38,7 +39,7 @@ public class ViewFactoryTest {
     @After
     public void tearDown() {
     }
-
+    
     /**
      * Test of getView method, of class ViewFactory.
      */
@@ -49,7 +50,7 @@ public class ViewFactoryTest {
         //View expResult = new ViewImplementation();
         View result = instance.getView();
         //assertEquals(expResult, result);
-        assertTrue("No es una vista",result instanceof View);        
+        assertTrue("No es una vista",result instanceof View);
     }
     
 }

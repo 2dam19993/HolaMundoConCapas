@@ -1,8 +1,8 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+* To change this license header, choose License Headers in Project Properties.
+* To change this template file, choose Tools | Templates
+* and open the template in the editor.
+*/
 package holamundoconcapas.model;
 
 import org.junit.After;
@@ -13,8 +13,9 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 /**
- *
- * @author 2dam
+ * Es la clase que testea la clase FileModelImplement.
+ * This class test the cass FileModelImplement
+ * @author Ricardo Peinado Lastra
  */
 public class FileModelImplementTest {
     
@@ -36,7 +37,7 @@ public class FileModelImplementTest {
     @After
     public void tearDown() {
     }
-
+    
     /**
      * Test of getGreeting method, of class FileModelImplement.
      */
@@ -50,7 +51,7 @@ public class FileModelImplementTest {
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
         fail("The test case is a prototype.");
-       */
+        */
         assertNotNull("Es nulo",new FileModelImplement().getGreeting());
         assertNotEquals("Esta vacio",0,new FileModelImplement().getGreeting().length());
     }

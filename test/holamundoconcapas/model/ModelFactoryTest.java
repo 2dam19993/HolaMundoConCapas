@@ -1,8 +1,8 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+* To change this license header, choose License Headers in Project Properties.
+* To change this template file, choose Tools | Templates
+* and open the template in the editor.
+*/
 package holamundoconcapas.model;
 
 import org.junit.After;
@@ -13,8 +13,9 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 /**
- *
- * @author 2dam
+ * Esta clase testea la clase ModelFactory.
+ * This class test the ModelFactory class
+ * @author Ricardo Peinado Lastra
  */
 public class ModelFactoryTest {
     
@@ -36,7 +37,7 @@ public class ModelFactoryTest {
     @After
     public void tearDown() {
     }
-
+    
     /**
      * Test of getModel method, of class ModelFactory.
      */

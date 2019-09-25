@@ -10,8 +10,9 @@ import holamundoconcapas.model.ModelFactory;
 import holamundoconcapas.view.ViewFactory;
 
 /**
- *
- * @author 2dam
+ * La propia aplicación
+ * The own application
+ * @author Ricardo Peinado Lastra
  */
 public class Application {
    public static void main (String[] args){
