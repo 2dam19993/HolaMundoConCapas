@@ -12,6 +12,8 @@ package holamundoconcapas.view;
 public class ViewFactory {
     public View getView(){
         //Este contructor no lo he declarado yo ya que es un contructor implicito
-        return new ViewImplementation();
+        //return new ViewImplementation();
+        //return new SwingViewImplementation();
+        return new JavaFxViewImplementation();
     };
 }
